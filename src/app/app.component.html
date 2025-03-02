@@ -1,15 +1,7 @@
-<div class="container">
-  <div>
-    <label for="monthSelect">Select Month:</label>
-    <select id="monthSelect" (change)="onMonthChange($event)">
-      <option value="2022-10">October 2022</option>
-      <option value="2022-11">November 2022</option>
-      <option value="2022-12">December 2022</option>
-      <!-- Add more months as needed -->
-    </select>
-  </div>
+
+
 
   <div class="chart-container" [ngStyle]="{'height': chartHeight + 'px'}">
     <p-chart class="chart" type="bar" [data]="chartData" [options]="chartOptions"></p-chart>
-  </div>
+  
 </div>

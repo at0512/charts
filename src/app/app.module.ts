@@ -9,6 +9,10 @@ import { CalendarModule } from 'primeng/calendar';
 import { DropdownModule } from 'primeng/dropdown';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { GanttChartComponent } from './gantt-chart/gantt-chart.component';
+import { TableModule } from 'primeng/table'; 
+import { ProgressBarModule } from 'primeng/progressbar';
+
+
 
 @NgModule({
   declarations: [
@@ -23,7 +27,9 @@ import { GanttChartComponent } from './gantt-chart/gantt-chart.component';
     BrowserAnimationsModule,
     FormsModule,
     CalendarModule,
-    DropdownModule
+    DropdownModule, 
+    TableModule,
+    ProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
